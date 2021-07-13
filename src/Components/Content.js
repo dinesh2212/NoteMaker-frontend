@@ -85,7 +85,6 @@ function Content(props) {
                         })
                         setNewtitle("")
                         setNewnote("")
-                        props.GetNotes()
                     }}className="savebutton">save</button>
                 </div>
                 <input type="text" value={newtitle} placeholder="Enter title" className="titlebox" onChange={event => {

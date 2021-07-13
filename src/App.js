@@ -43,7 +43,7 @@ class App extends Component {
             },
             body: JSON.stringify(item)
         })
-        this.GetNotes()
+        .then(() => this.GetNotes())
     }
 
     ChangeView = () => {
